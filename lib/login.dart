@@ -64,7 +64,9 @@ class _MyLoginState extends State<MyLogin> {
                     backgroundColor: Color(0xff4c505b),
                     child: IconButton(
                       color: Colors.white,
-                      onPressed: () {},
+                      onPressed: () {
+                        Navigator.pushNamed(context,'profile');
+                      },
                       icon:Icon(Icons.arrow_forward),
                     ),
                     )
@@ -88,7 +90,6 @@ class _MyLoginState extends State<MyLogin> {
                       onPressed: () {},
                       child: Text("Forgot Password",
                       style: TextStyle(
-                        // backgroundColor: Color(0xff4c505b),
                         decoration: TextDecoration.underline,
                         fontSize: 18 ,
                         color: Colors.white,

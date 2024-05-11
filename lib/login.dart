@@ -21,7 +21,7 @@ class _MyLoginState extends State<MyLogin> {
               Container(
                 padding: EdgeInsets.only(left: 35,top: 130),
                 child: Text('Welcome\nBack',style: TextStyle(
-                  color: Colors.blueAccent,
+                  color: Colors.black,
                   fontSize: 30,
                 ),),
               ),
@@ -75,7 +75,9 @@ class _MyLoginState extends State<MyLogin> {
                     mainAxisAlignment: MainAxisAlignment.spaceBetween,
                     children: [
                     TextButton(
-                      onPressed: () {},
+                      onPressed: () {
+                        Navigator.pushNamed(context,'register');
+                      },
                       child: Text("Sign Up",style: TextStyle(
                         decoration: TextDecoration.underline,
                         fontSize: 18 ,

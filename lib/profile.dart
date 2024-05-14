@@ -11,15 +11,15 @@ class ProfilePage extends StatefulWidget {
 class _ProfilePageState extends State<ProfilePage> {
   @override
   Widget build(BuildContext context){
-    return Container(
-      decoration: BoxDecoration(
-        image: DecorationImage(
-          image: AssetImage("assets/register.jpeg"),fit: BoxFit.cover)),
-      child: Scaffold(
-        appBar: AppBar(
-        backgroundColor:Colors.transparent,
-        elevation: 0,
-        )));
+    // return Container(
+    //   decoration: BoxDecoration(
+    //     image: DecorationImage(
+    //       image: AssetImage("assets/register.jpeg"),fit: BoxFit.cover)),
+    //   child: Scaffold(
+    //     appBar: AppBar(
+    //     backgroundColor:Colors.transparent,
+    //     elevation: 0,
+    //     )));
   } 
      
   }
